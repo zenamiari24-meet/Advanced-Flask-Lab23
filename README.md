@@ -28,7 +28,7 @@ We have provided you with some HTML, CSS, and JS already, so not to worry about 
     - **Pass** these *two variables* to `index.html`
     - **Replace** the first image with `image_link`
     - **Replace** the **description** `<h1>` with `user_bio`
-    - Run `main.py`, how is it lookin' now? ;)
+    - Run `app.py`, how is it lookin' now? ;)
     - *Feel free* to change the values of `image_link` and `user_bio` to your own image and bio! 
         
 Now, after you're done with setting up the profile info, let's display our posts!  
