@@ -20,11 +20,11 @@ By the end of this lab, you will have your Instagram profile page look something
 In this lab, we'll be creating our own kind of Instagram profile page!  
 We have provided you with some HTML, CSS, and JS already, so not to worry about design; We'll be focusing on our programming skills!  
 
-1. Run `main.py`; Did everything load up correctly?
+1. Run `app.py`; Did everything load up correctly?
     - Fix the incorrectly loaded content
     - *Hint: Take a look at `index.html`, are all pictures visible? Are all scripts linked correctly?*
 
-2. In `main.py`, you have a variable called `image_link`, and another variable called `user_bio`:
+2. In `app.py`, you have a variable called `image_link`, and another variable called `user_bio`:
     - **Pass** these *two variables* to `index.html`
     - **Replace** the first image with `image_link`
     - **Replace** the **description** `<h1>` with `user_bio`
@@ -33,7 +33,7 @@ We have provided you with some HTML, CSS, and JS already, so not to worry about 
         
 Now, after you're done with setting up the profile info, let's display our posts!  
 
-3. In `main.py` theres a variable called `posts`, it's a dictionary that has image links as *Keys*, and post captions as *Values*!
+3. In `app.py` theres a variable called `posts`, it's a dictionary that has image links as *Keys*, and post captions as *Values*!
     - Pass `posts` to `index.html`, and display each post correctly!
     - *Hint: hmmm.. how can we **loop** through these posts and show them on the page?*
     - *Feel free* to change the dictionary keys and values to create your own Instagram profile!
